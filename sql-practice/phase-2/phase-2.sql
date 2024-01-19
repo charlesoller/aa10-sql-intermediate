@@ -1,10 +1,10 @@
 PRAGMA foreign_keys=on; -- Turns foreign key support in SQLite3 on
 -- Your code here
--- .mode box
--- DROP TABLE IF EXISTS cat_owners;
--- DROP TABLE IF EXISTS toys;
--- DROP TABLE IF EXISTS owners;
--- DROP TABLE IF EXISTS cats;
+.mode box
+DROP TABLE IF EXISTS cat_owners;
+DROP TABLE IF EXISTS toys;
+DROP TABLE IF EXISTS owners;
+DROP TABLE IF EXISTS cats;
 
 CREATE TABLE cats (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
